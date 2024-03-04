@@ -1,3 +1,3 @@
-# Projeto
+# Modulo de Configuração
 
-projeto c# em desenvolvimento, não roda ainda.
+Projeto c# em desenvolvimento, modulo responsável pelas configurações gerais em comum nas apis.

@@ -1,10 +1,8 @@
 ﻿namespace GxpConfiguracao.Services.BizServices.Interfaces
 {
 	using Models.Mensagem;
-	using Models.Mensagem.Tos;
-	using GxpCore.Infraestrutura.Services;
 
-	public interface IGrupoMensagemBizService : IGxpBizService
+	public interface IGrupoMensagemBizService : IGrupoMensagemBizService
 	{
 		void RegistrarGrupoMensagem(GrupoMensagem grupoMensagem);
 

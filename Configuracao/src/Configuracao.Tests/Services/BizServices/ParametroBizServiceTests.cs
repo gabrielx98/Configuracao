@@ -3,11 +3,7 @@
 namespace GxpConfiguracao.Tests.Services.BizServices
 {
 	using NUnit.Framework;
-
-	using GxpConfiguracao.Services.BizServices.Interfaces;
-
-	using GxpCore.Infraestrutura.Tests;
-
+		
 	[TestFixture]
 	public class ParametroBizServiceTests : BaseBizServiceTest<IParametroBizService>
 	{

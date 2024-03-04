@@ -4,9 +4,6 @@
 	using System.Collections.Generic;
 	using Models.Mensagem;
 	using Models.Mensagem.Enums;
-	using Models.Mensagem.Tos;
-	using GxpCore.Infraestrutura.Services;
-	using GxpCore.Infraestrutura.Services.Tos;
 
 	public interface IMensagemEntityService : IGxpEntityService<Mensagem, int>
 	{

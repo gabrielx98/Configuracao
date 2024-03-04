@@ -4,8 +4,6 @@
 	using GxpConfiguracao.Services.BizServices;
     using GxpConfiguracao.Services.CacheServices;
     using GxpConfiguracao.Services.CacheServices.Interfaces;
-    using GxpCore.Infraestrutura.DependencyInjection;
-    using GxpCore.Infraestrutura.Mensagem;
 
 	public class GxpConfiguracaoModuloConfig : BaseModuloConfig
 	{

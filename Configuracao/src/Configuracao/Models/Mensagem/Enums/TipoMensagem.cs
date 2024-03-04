@@ -1,7 +1,6 @@
 ﻿namespace GxpConfiguracao.Models.Mensagem.Enums
 {
 	using System.ComponentModel;
-	using GxpCore.Infraestrutura.Persistence.Attributes;
 
 	[LookupTable]
 	public enum TipoMensagem

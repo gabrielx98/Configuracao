@@ -8,10 +8,7 @@
 	using Interfaces;
 	using Models.Mensagem;
 	using Models.Mensagem.Enums;
-	using Models.Mensagem.Tos;
-	using GxpCore.Infraestrutura.Services;
-	using GxpCore.Infraestrutura.Services.Tos;
-
+	
 	public class MensagemEntityService : GxpEntityService<Mensagem, int>, IMensagemEntityService
 	{
 		public IList<Mensagem> Pesquisar(GrupoMensagem grupo, bool? verificado, SistemaMensagem? sistema, DestinoMensagem? destino, string prefixo, string codigo, string modulo, string descricao, PesquisaTo pesquisa, TipoMensagem? tipo, string identificador = null)

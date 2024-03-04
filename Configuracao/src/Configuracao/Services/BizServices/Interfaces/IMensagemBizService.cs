@@ -2,10 +2,8 @@
 {
 	using System.Collections.Generic;
 	using Models.Mensagem;
-	using Models.Mensagem.Tos;
-	using GxpCore.Infraestrutura.Services;
-
-	public interface IMensagemBizService : IGxpBizService
+	
+	public interface IMensagemBizService : IMensagemBizService
 	{
 		void RegistrarMensagem(Mensagem mensagem);
 

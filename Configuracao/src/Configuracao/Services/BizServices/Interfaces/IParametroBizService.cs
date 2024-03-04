@@ -1,10 +1,7 @@
 ﻿namespace GxpConfiguracao.Services.BizServices.Interfaces
 {
 	using System.Collections.Generic;
-	using Models.Parametro.Tos;
 	using GxpConfiguracao.Models.Parametro;
-
-	using GxpCore.Infraestrutura.Services;
 
 	public interface IParametroBizService : IGxpBizService
 	{

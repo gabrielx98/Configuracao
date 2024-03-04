@@ -2,7 +2,6 @@
 {
 	using System.Collections.Generic;
 	using Enums;
-	using GxpCore.Infraestrutura.Persistence;
 
 	public class Mensagem : EntidadeBaseIdAutomatico
 	{

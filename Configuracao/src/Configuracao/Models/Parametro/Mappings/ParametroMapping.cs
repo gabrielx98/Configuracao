@@ -4,8 +4,6 @@
 
 	using GxpConfiguracao.Models.Email;
 
-	using GxpCore.Infraestrutura.Persistence;
-
 	public class ParametroMapping : BaseMapping<Parametro, int>
 	{
 		public override string TableName

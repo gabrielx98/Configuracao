@@ -3,10 +3,7 @@
 	using EntityServices.Interfaces;
 	using Interfaces;
 	using Models.Mensagem;
-	using Models.Mensagem.Tos;
-	using GxpCore.Infraestrutura.Api;
-	using GxpCore.Infraestrutura.Services;
-
+	
 	public class GrupoMensagemBizService : GxpBizService, IGrupoMensagemBizService
 	{
 		private readonly IGrupoMensagemEntityService _grupoMensagemEntityService;

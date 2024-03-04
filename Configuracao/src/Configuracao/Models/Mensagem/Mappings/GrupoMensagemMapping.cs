@@ -1,7 +1,6 @@
 ﻿namespace GxpConfiguracao.Models.Mensagem.Mappings
 {
 	using System.Data.Entity.ModelConfiguration;
-	using GxpCore.Infraestrutura.Persistence;
 
 	public class GrupoMensagemMapping : BaseMapping<GrupoMensagem, int>
 	{

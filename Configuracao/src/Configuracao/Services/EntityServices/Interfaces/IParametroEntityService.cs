@@ -2,9 +2,7 @@
 {
 	using System.Collections.Generic;
 	using Models.Parametro;
-	using Models.Parametro.Tos;
-	using GxpCore.Infraestrutura.Services;
-
+	
 	public interface IParametroEntityService : IGxpEntityService<Parametro, int>
 	{
 		void RegistrarValor(Parametro parametro);

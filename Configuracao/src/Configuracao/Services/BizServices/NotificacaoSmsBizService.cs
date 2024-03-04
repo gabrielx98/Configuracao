@@ -6,8 +6,6 @@
 	using GxpConfiguracao.Models.Email.Enums;
 	using GxpConfiguracao.Services.BizServices.Interfaces;
 
-	using GxpCore.Infraestrutura.Services;
-
 	public class NotificacaoSmsBizService : GxpBizService, INotificacaoMensagemBizService
 	{
 		public TipoNotificacao TipoSuportado

@@ -4,8 +4,6 @@
 	using System.Data.Entity.Infrastructure.Annotations;
 	using System.Data.Entity.ModelConfiguration;
 
-	using GxpCore.Infraestrutura.Persistence;
-
 	public class NotificacaoMensagemMapping : BaseMapping<NotificacaoMensagem, int>
 	{
 		public override string TableName

@@ -2,9 +2,7 @@
 {
 	using GxpConfiguracao.Models.Email;
 
-	using GxpCore.Infraestrutura.Services;
-
-	public interface INotificacaoBizService : IGxpBizService
+	public interface INotificacaoBizService : INotificacaoBizService
 	{
 		void ProcessarFila();
 

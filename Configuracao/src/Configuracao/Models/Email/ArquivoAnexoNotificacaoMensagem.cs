@@ -1,6 +1,5 @@
 ﻿namespace GxpConfiguracao.Models.Email
 {
-	using GxpCore.Infraestrutura.Persistence;
 
 	public class ArquivoAnexoNotificacaoMensagem : EntidadeBaseIdAutomatico
 	{

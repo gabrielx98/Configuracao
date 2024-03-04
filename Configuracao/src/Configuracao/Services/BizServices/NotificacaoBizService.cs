@@ -5,9 +5,7 @@
 	using EntityServices.Interfaces;
 	using Interfaces;
 	using Models.Email;
-	using GxpCore.Infraestrutura.Api;
-	using GxpCore.Infraestrutura.Services;
-
+	
 	public class NotificacaoBizService : GxpBizService, INotificacaoBizService
 	{
 		private readonly INotificacaoMensagemEntityService _notificacaoMensagemEntityService;

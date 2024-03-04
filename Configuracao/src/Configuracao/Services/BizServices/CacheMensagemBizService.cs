@@ -5,12 +5,7 @@
 	using EntityServices.Interfaces;
 	using Models.Mensagem;
 	using Models.Mensagem.Enums;
-	using GxpCore.Extensoes;
-	using GxpCore.Infraestrutura.Api;
-	using GxpCore.Infraestrutura.Api.Dto;
-	using GxpCore.Infraestrutura.Mensagem;
-	using GxpCore.Infraestrutura.Services;
-
+	
 	public class CacheMensagemBizService : GxpBizService, ICacheMensagemBizService
 	{
 		private readonly IMensagemEntityService _mensagemEntityService;

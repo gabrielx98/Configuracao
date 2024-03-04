@@ -3,8 +3,6 @@
 	using System.Collections.Generic;
 	using Models.Mensagem;
 	using Models.Mensagem.Enums;
-	using GxpCore.Infraestrutura.Services;
-	using GxpCore.Infraestrutura.Services.Tos;
 
 	public interface IGrupoMensagemEntityService : IGxpEntityService<GrupoMensagem, int>
 	{

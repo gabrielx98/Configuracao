@@ -3,12 +3,7 @@
 	using System;
 	using Autofac;
 	using NUnit.Framework;
-	using GxpConfiguracao.Models.Email;
-	using GxpConfiguracao.Models.Parametro;
-	using GxpConfiguracao.Services.EntityServices.Interfaces;
-	using GxpCore.Infraestrutura.Services.Tos;
-	using GxpCore.Infraestrutura.Tests;
-
+	
 	[TestFixture(0)]
 	public class NotificacaoEntityServiceTests : BaseEntityServiceTest<INotificacaoMensagemEntityService, NotificacaoMensagem, int>
 	{

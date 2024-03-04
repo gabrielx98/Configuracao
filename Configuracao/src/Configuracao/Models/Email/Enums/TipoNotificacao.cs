@@ -2,8 +2,6 @@
 {
 	using System.ComponentModel;
 
-	using GxpCore.Infraestrutura.Persistence.Attributes;
-
 	[LookupTable]
 	public enum TipoNotificacao
 	{

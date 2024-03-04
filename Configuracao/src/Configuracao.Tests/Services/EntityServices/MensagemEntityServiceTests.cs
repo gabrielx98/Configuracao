@@ -3,10 +3,6 @@
 	using System.Collections.Generic;
 	using Autofac;
 	using NUnit.Framework;
-	using GxpConfiguracao.Models.Mensagem;
-	using GxpConfiguracao.Models.Mensagem.Enums;
-	using GxpConfiguracao.Services.EntityServices.Interfaces;
-	using GxpCore.Infraestrutura.Tests;
 
 	[TestFixture(0)]
 	public class MensagemEntityServiceTests : BaseEntityServiceTest<IMensagemEntityService, Mensagem, int>
@@ -29,8 +25,8 @@
 		public override void TestarInserir()
 		{
 			EntidadeInserir.Codigo = "001";
-			EntidadeInserir.Modulo = "Pre-Stacking";
-			EntidadeInserir.Prefixo = "PRE";
+			EntidadeInserir.Modulo = "";
+			EntidadeInserir.Prefixo = "";
 			EntidadeInserir.Grupo = _grupoMensagemEntityService.ObterPorId(1);
 
 			EntidadeInserir.Mensagens = new List<MensagemIdioma>();

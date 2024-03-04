@@ -2,8 +2,6 @@
 {
 	using System.Data.Entity.Spatial;
 
-	using GxpCore.Infraestrutura.Persistence;
-
 	public class Parametro : EntidadeBaseIdAutomatico
 	{
 		public string Modulo { get; set; }

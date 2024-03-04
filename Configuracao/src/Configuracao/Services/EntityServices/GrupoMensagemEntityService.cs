@@ -5,8 +5,6 @@
 	using Interfaces;
 	using Models.Mensagem;
 	using Models.Mensagem.Enums;
-	using GxpCore.Infraestrutura.Services;
-	using GxpCore.Infraestrutura.Services.Tos;
 
 	public class GrupoMensagemEntityService : GxpEntityService<GrupoMensagem, int>, IGrupoMensagemEntityService
 	{

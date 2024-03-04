@@ -4,9 +4,7 @@
 	using System.Collections.Generic;
 	using Models.Email;
 	using Models.Email.Enums;
-	using GxpCore.Infraestrutura.Services;
-	using GxpCore.Infraestrutura.Services.Tos;
-
+	
 	public interface INotificacaoMensagemEntityService : IGxpEntityService<NotificacaoMensagem, int>
     {
         void RegistrarNotificacao(NotificacaoMensagem notificacao);

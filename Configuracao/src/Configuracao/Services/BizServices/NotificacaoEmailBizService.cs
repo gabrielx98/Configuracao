@@ -10,8 +10,6 @@
 	using Interfaces;
 	using Models.Email;
 	using Models.Email.Enums;
-	using GxpCore.Infraestrutura.Api;
-	using GxpCore.Infraestrutura.Services;
 
 	public class NotificacaoEmailBizService : GxpBizService, INotificacaoMensagemBizService
 	{

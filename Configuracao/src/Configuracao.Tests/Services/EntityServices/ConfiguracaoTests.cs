@@ -1,12 +1,7 @@
 ﻿namespace GxpConfiguracao.Tests.Services.EntityServices
 {
 	using NUnit.Framework;
-
-	using GxpConfiguracao.Models.Email;
-	using GxpConfiguracao.Models.Parametro;
-	using GxpConfiguracao.Services.EntityServices.Interfaces;
-	using GxpCore.Infraestrutura.Tests;
-
+		
 	[TestFixture(0)]
 	public class ConfiguracaoTests : BaseEntityServiceTest<IParametroEntityService, Parametro, int>
 	{
@@ -20,43 +15,43 @@
 		{
 			EntidadeInserir.Modulo = NotificacaoParametro.Modulo;
 			EntidadeInserir.Chave = NotificacaoParametro.ServidorEmail;
-			EntidadeInserir.Valor = "192.168.1.21";
+			EntidadeInserir.Valor = "";
 			TestarInserir();
 
 			EntidadeInserir = new Parametro();
 			EntidadeInserir.Modulo = NotificacaoParametro.Modulo;
 			EntidadeInserir.Chave = NotificacaoParametro.PortaServidorEmail;
-			EntidadeInserir.Valor = "25";
+			EntidadeInserir.Valor = "";
 			TestarInserir();
 
 			EntidadeInserir = new Parametro();
 			EntidadeInserir.Modulo = NotificacaoParametro.Modulo;
 			EntidadeInserir.Chave = NotificacaoParametro.RemetenteEmail;
-			EntidadeInserir.Valor = "servicos_operacoes@Gxp.com.br";
+			EntidadeInserir.Valor = "";
 			TestarInserir();
 
 			EntidadeInserir = new Parametro();
 			EntidadeInserir.Modulo = NotificacaoParametro.Modulo;
 			EntidadeInserir.Chave = NotificacaoParametro.SenhaRemetenteEmail;
-			EntidadeInserir.Valor = "rotina@#";
+			EntidadeInserir.Valor = "";
 			TestarInserir();
 
 			EntidadeInserir = new Parametro();
 			EntidadeInserir.Modulo = NotificacaoParametro.Modulo;
 			EntidadeInserir.Chave = NotificacaoParametro.TituloRemetenteEmail;
-			EntidadeInserir.Valor = "Gxp";
+			EntidadeInserir.Valor = "";
 			TestarInserir();
 
 			EntidadeInserir = new Parametro();
 			EntidadeInserir.Modulo = NotificacaoParametro.Modulo;
 			EntidadeInserir.Chave = NotificacaoParametro.UsuarioRemetenteEmail;
-			EntidadeInserir.Valor = "servicos_operacoes@Gxp.com.br";
+			EntidadeInserir.Valor = "";
 			TestarInserir();
 
 			EntidadeInserir = new Parametro();
 			EntidadeInserir.Modulo = NotificacaoParametro.Modulo;
 			EntidadeInserir.Chave = NotificacaoParametro.AutenticacaoServidorEmail;
-			EntidadeInserir.Valor = "True";
+			EntidadeInserir.Valor = "";
 			TestarInserir();
 		}
 

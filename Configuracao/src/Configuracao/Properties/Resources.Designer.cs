@@ -31,21 +31,7 @@ namespace GxpConfiguracao.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-        
-        /// <summary>
-        ///   Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
-            get {
-                if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GxpConfiguracao.Properties.Resources", typeof(Resources).Assembly);
-                    resourceMan = temp;
-                }
-                return resourceMan;
-            }
-        }
-        
+                        
         /// <summary>
         ///   Substitui a propriedade CurrentUICulture do thread atual para todas as
         ///   pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.

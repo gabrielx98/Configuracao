@@ -1,12 +1,7 @@
 ﻿namespace GxpConfiguracao.Tests.Services.BizServices
 {
 	using NUnit.Framework;
-
-	using GxpConfiguracao.Models.Email;
-	using GxpConfiguracao.Models.Email.Enums;
-	using GxpConfiguracao.Services.BizServices.Interfaces;
-
-	using GxpCore.Infraestrutura.Tests;
+	
 
 	[TestFixture]
 	public class NotificacaoTests : BaseBizServiceTest<INotificacaoBizService>
@@ -17,7 +12,7 @@
 			NotificacaoMensagem notificacao = new NotificacaoMensagem
 			{
 				Assunto = "teste",
-				Destinatarios = "ext_jefferson.soares@Gxp.com.br",
+				Destinatarios = "",
 				Mensagem = "teste",
 				Tipo = TipoNotificacao.Email,
 			};

@@ -2,7 +2,6 @@
 {
 	using System.Collections.Generic;
 	using GxpConfiguracao.Models.Email.Enums;
-	using GxpCore.Infraestrutura.Persistence;
 
 	public class NotificacaoMensagem : EntidadeBaseIdAutomatico
 	{

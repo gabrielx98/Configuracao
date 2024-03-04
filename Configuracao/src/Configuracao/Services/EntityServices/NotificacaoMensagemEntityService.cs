@@ -7,10 +7,8 @@
 	using Interfaces;
 	using Models.Email;
 	using Models.Email.Enums;
-	using GxpCore.Infraestrutura.Services;
-	using GxpCore.Infraestrutura.Services.Tos;
-
-	public class NotificacaoMensagemEntityService : GxpEntityService<NotificacaoMensagem, int>, INotificacaoMensagemEntityService
+	
+	public class NotificacaoMensagemEntityService : NotificacaoMensagemEntityService<NotificacaoMensagem, int>, INotificacaoMensagemEntityService
 	{
 		public void RegistrarNotificacao(NotificacaoMensagem notificacao)
 		{

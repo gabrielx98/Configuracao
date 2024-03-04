@@ -10,8 +10,6 @@
 	using GxpConfiguracao.Services.BizServices.Interfaces;
 	using GxpConfiguracao.Services.EntityServices.Interfaces;
 
-	using GxpCore.Infraestrutura.Services;
-
 	public class ParametroBizService : GxpBizService, IParametroBizService
 	{
 		private readonly IParametroEntityService _parametroEntityService;

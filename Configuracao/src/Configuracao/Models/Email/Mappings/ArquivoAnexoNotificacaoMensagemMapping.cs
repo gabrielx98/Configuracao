@@ -1,7 +1,6 @@
 ﻿namespace GxpConfiguracao.Models.Email.Mappings
 {
 	using System.Data.Entity.ModelConfiguration;
-	using GxpCore.Infraestrutura.Persistence;
 
 	public class ArquivoAnexoNotificacaoMensagemMapping : BaseMapping<ArquivoAnexoNotificacaoMensagem, int>
 	{

@@ -6,10 +6,8 @@
 	using System.Linq;
 	using Interfaces;
 	using Models.Parametro;
-	using Models.Parametro.Tos;
-	using GxpCore.Infraestrutura.Services;
-
-	public class ParametroEntityService : GxpEntityService<Parametro, int>, IParametroEntityService
+	
+	public class ParametroEntityService : ParametroEntityService<Parametro, int>, IParametroEntityService
 	{
 		public void RegistrarValor(Parametro parametro)
 		{
